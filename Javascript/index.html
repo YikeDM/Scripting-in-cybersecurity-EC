@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script language = "javascript">
+        function minusAnswer(){
+            var inputNum1;
+            var inputNum2;
+
+            inputNum1 = prompt("Enter the larger number: ", 0);
+            inputNum2 = prompt("Enter the smaller number: ", 0);
+            var outputTotal = inputNum1 - inputNum2;
+            alert("Answer is: " + outputTotal);
+        }
+        function multiplyAnswer(){
+            var inputNum1;
+            var inputNum2;
+
+            inputNum1 = prompt("Enter the first number: ", 0);
+            inputNum2 = prompt("Enter the second number: ", 0);
+            var outputTotal = inputNum1 * inputNum2;
+            alert("Answer is: " + outputTotal);
+        }
+        function divideAnswer(){
+            var inputNum1;
+            var inputNum2;
+
+            inputNum1 = prompt("Enter the first number: ", 0);
+            inputNum2 = prompt("Enter the second number: ", 0);
+            var outputTotal = inputNum1 / inputNum2;
+            alert("Answer is: " + outputTotal);
+        }
+        function addAnswer(){
+            var adding1;
+            var adding2;
+
+            adding1 = prompt("Enter the first number: ", 0);
+            adding2 = prompt("Enter the second number: ", 0);
+            var outputTotal = Number(adding1) + Number(adding2);
+            alert("Answer is: " + outputTotal);
+        }
+        function names(){
+            var inputNum1;
+            var inputNum2;
+            
+            inputNum1 = prompt("Enter your first name: ", 0);
+            inputNum2 = prompt("Enter your second name: ", 0);
+            var outputTotal = inputNum1 + " " + inputNum2;
+            alert("Your name is: " + outputTotal);
+        }
+    </script>
+</head>
+<body>
+
+    <form name= "myForm">
+        <h1><p>Subtracting numbers</p>
+            <p>You will be asked for two numbers</p>
+            <p>You will be shown the difference between the numbers</p></h1>
+    </form>
+<input type = "button" value="Start" onclick="minusAnswer()";>
+
+<br>
+<h1><p>Press button for multiply numbers calculator</p></h1>
+<input type = "button" value="Start" onclick="multiplyAnswer()";>
+<br>
+<h1><p>Press button for divide numbers calculator</p></h1>
+<input type = "button" value="Start" onclick="divideAnswer()";>
+<br>
+<h1><p>Press button for add numbers calculator</p></h1>
+<input type = "button" value="Start" onclick="addAnswer()";>
+
+<br>
+<h1><p>Press button saying your name back to yourself?</p></h1>
+<input type = "button" value="Start" onclick="names()";>
+
+
+</body>
+
+
+</html>
